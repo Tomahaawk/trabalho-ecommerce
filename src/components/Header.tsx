@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Icon, Image } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 import '../assets/css/Header.css';
 
 const Header = () => {
@@ -8,11 +8,10 @@ const Header = () => {
         <header className='header-wrapper'>
             <div className='left-header'>
                 <a href="javascript:void(0)">
-                    <Icon name='bars' size='big'></Icon>
+                   Cool Name
                 </a>
             </div>
             <div className='center-header'>
-                <Container>
                     <nav>
                         <Link to="/">
                             Home
@@ -27,11 +26,12 @@ const Header = () => {
                             Contato
                         </Link>
                     </nav>
-                </Container>
             </div>
             <div className='right-header'>
-                <span>Usuário</span>
-                <Image src='../src/assets/images/logo.svg' avatar/>
+                <Icon className='cart' name='shopping cart'></Icon>
+                <div className='user-wrapper'>
+                    <Icon name='user'></Icon>
+                </div>
             </div>
         </header>
     );

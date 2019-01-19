@@ -1,14 +1,36 @@
 .header-wrapper {
     padding: 20px;
     display: flex;
+    background-color: #7eaee3;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
 }
 
 .header-wrapper a {
     color: #000;
 }
 
-.header-wrapper > .left-header, .center-header, .right-header {
+.header-wrapper > .left-header, .right-header {
     flex: 1;
+}
+
+.header-wrapper > .center-header {
+    flex: 2;
+}
+
+.header-wrapper > .right-header {
+    text-align: right;
+}
+
+.header-wrapper > .right-header > .cart {
+    margin: 0 20px;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.header-wrapper > .right-header > .user-wrapper {
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 20px;
 }
 
 nav {
@@ -16,6 +38,8 @@ nav {
 }
 
 nav > a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
     margin: 0 10px;
     padding: 5px;
 }
