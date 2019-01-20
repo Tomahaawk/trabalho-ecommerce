@@ -13,6 +13,8 @@
     "member-ordering": false,
     "jsx-no-lambda": false,
     "jsx-boolean-value": false,
-    "jsx-self-close": false
+    "jsx-self-close": false,
+    "member-access": [true, "no-public"],
+    "no-console": false
   }
 }

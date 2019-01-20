@@ -5,7 +5,7 @@ import ProductDetailsPage from './pages/ProductDetailsPage';
 import { Switch, Route } from 'react-router';
 
 class App extends React.Component {
-  public render() {
+  render() {
     return (
       <div>
         <Header />
