@@ -8,6 +8,7 @@ import { MainPageComponent } from "./pages/main-page/main-page.component";
 import { TopbarComponent } from './components/topbar/topbar.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
+import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductDetailsComponent } from './pages/product-details/product-details
     MainPageComponent, 
     TopbarComponent, 
     ProductsComponent, 
-    ProductDetailsComponent
+    ProductDetailsComponent, 
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
