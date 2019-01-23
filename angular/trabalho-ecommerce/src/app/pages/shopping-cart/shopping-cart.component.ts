@@ -45,19 +45,26 @@ export class ShoppingCartComponent implements OnInit {
     }
   }
 
+  isBtnMinusDisabled(amount:number){
+    if(amount<1){
+      return true;
+    }
+    return false;
+  }
+
   removeListShopp(shopp:ShoppingCart){
-    this.listShoppingCarts = this.listShoppingCarts.filter(obj => obj !== shopp);
+    this.listShoppingCarts = this.listShoppingCarts.filter(obj => obj.id !== shopp.id);
     this.calculaTotais(this.listShoppingCarts);
   }
 
   plusAmount(shopp:ShoppingCart){
-    this.listShoppingCarts.find(obj => obj == obj).amount = shopp.amount+1;
+    this.listShoppingCarts.find(obj => obj.id == shopp.id).amount = shopp.amount+1;
     this.calculaTotais(this.listShoppingCarts);
   }
 
   minAmount(shopp:ShoppingCart){
     if(shopp.amount>1){
-      this.listShoppingCarts.find(obj => obj == obj).amount = shopp.amount-1;
+      this.listShoppingCarts.find(obj => obj.id == shopp.id).amount = shopp.amount-1;
       this.calculaTotais(this.listShoppingCarts);
     }
   }
