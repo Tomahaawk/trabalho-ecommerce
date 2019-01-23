@@ -3,7 +3,7 @@
 </h1>
 
 <div class="d-flex">
-  <table class="table table-bordered table-striped" style="margin:2rem">
+  <table class="table table-bordered" style="margin:2rem">
       <thead>
         <tr>
           <th scope="col">Produto</th>
@@ -15,7 +15,22 @@
       </thead>
       <tbody>
           <tr *ngFor="let shopp of listShoppingCarts">
-            <td>{{shopp.product.name}}</td>
+            <td>
+                <div class="card flex-row flex-wrap" style="border:none">
+                    <div class="card-header border-0" style="padding:0.5rem">
+                        <img src="//placehold.it/60" alt="">
+                    </div>
+                    <div class="card-block px-2">
+                        <h5 class="card-title">
+                            <a href="#">
+                              {{shopp.product.name}}</a>
+                        </h5>
+                        <p class="card-text">{{shopp.product.description}}</p>
+                    </div>
+                    <div class="w-100"></div>
+                </div>
+
+            </td>
             <td>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
