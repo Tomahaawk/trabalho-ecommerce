@@ -10,6 +10,8 @@ import { ProductsComponent } from './pages/products/products.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
 import { ProductGridItemComponent } from './components/product-grid-item/product-grid-item.component';
+import { ShoppingCartService } from "./services/shopping-cart/shopping-cart.service";
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,14 @@ import { ProductGridItemComponent } from './components/product-grid-item/product
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(ROUTES, {
       useHash: true
     }),
   ],
-  providers: [],
+  providers: [
+    ShoppingCartService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

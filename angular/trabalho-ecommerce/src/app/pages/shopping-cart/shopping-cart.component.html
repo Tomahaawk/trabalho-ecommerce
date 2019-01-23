@@ -1,3 +1,40 @@
-<p>
-  shopping-cart works!
-</p>
+<h1>
+  Meu Carrinho!
+</h1>
+
+<div class="d-flex">
+  <table class="table table-bordered table-striped" style="margin:2rem">
+      <thead>
+        <tr>
+          <th scope="col">Produto</th>
+          <th scope="col">Quantidade</th>
+          <th scope="col">Preço</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody >
+          <tr *ngFor="let shopp of listShoppingCarts">
+            <td>{{shopp.product.name}}</td>
+            <td>{{shopp.amount}}</td>
+            <td>{{shopp.product.price}}</td>
+            <td>{{(shopp.product.price*shopp.amount)}}</td>
+          </tr>
+      </tbody>
+  </table>
+
+  <div class="card" style="width: 30rem;">
+    <div class="card-body">
+      <h5 class="card-header">Resumo da compra</h5>
+      <div class="d-flex flex-row">
+          <div class="p-2">Total:</div>
+          <div class="ml-auto p-2">{{valorTotal}}</div>
+      </div>
+     
+      <p class="card-text">Parcela em até 10x sem juros</p>
+      <div class="card-footer">
+        <a href="#" class="btn btn-primary btn-lg btn-block">
+            <span class="fas fa-shopping-cart"></span>Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
