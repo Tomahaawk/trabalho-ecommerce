@@ -3,3 +3,9 @@
     width: 500px;
     background-color: blue;
 }
+
+.carousel-wrapper {
+    height: 500px;
+    width: 60%;
+    margin: auto;
+}

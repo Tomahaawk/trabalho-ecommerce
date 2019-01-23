@@ -9,6 +9,7 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
+import { ProductGridItemComponent } from './components/product-grid-item/product-grid-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.compo
     TopbarComponent, 
     ProductsComponent, 
     ProductDetailsComponent, 
-    ShoppingCartComponent
+    ShoppingCartComponent, ProductGridItemComponent
   ],
   imports: [
     BrowserModule,
