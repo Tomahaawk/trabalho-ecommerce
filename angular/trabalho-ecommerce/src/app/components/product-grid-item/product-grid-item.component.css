@@ -8,3 +8,8 @@
 i {
     cursor: pointer;
 }
+
+.name {
+    width: 200px;
+    display: block;
+}

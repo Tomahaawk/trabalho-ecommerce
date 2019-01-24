@@ -1,9 +1,10 @@
 <div class="item-wrapper">
-    <img src="https://via.placeholder.com/150" alt="img">
-    <div>
-        <span>
+    <img class="img-thumbnail" src="{{'../../../assets/img/products/' + product.imageUrl}}" alt="img">
+    <span class="text-truncate name">
           {{product.name}}
-        </span>
+    </span>
+    <div>
+        <span>{{product.price | currency:'BRL':'symbol':'1.2-2'}}</span>
+        <i class="fas fa-cart-plus" (click)="addToCart()"></i>
     </div>
-    <i class="fas fa-cart-plus" (click)="addToCart()"></i>
 </div>

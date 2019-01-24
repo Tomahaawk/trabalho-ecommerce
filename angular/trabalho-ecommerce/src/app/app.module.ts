@@ -16,6 +16,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductsService } from './pages/products/products.service';
 import { FormsModule } from '@angular/forms';
 
+import { LOCALE_ID } from '@angular/core';
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localePt);
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +42,11 @@ import { FormsModule } from '@angular/forms';
   ],
   providers: [
     ShoppingCartService,
-    ProductsService
+    ProductsService,
+    {
+        provide: LOCALE_ID,
+        useValue: 'pt-BR'
+    }
   ],
   bootstrap: [AppComponent]
 })
