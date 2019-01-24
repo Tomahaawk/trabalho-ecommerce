@@ -3,7 +3,9 @@ import { Observable } from 'rxjs';
 import { Product } from 'src/app/model/products';
 import { ECOMMERCE_API } from 'src/app/app.api';
 import { map } from 'rxjs/operators';
+import { Injectable } from '@angular/core';
 
+@Injectable()
 export class ProductsService {
   constructor(private http: Http) {}
 
