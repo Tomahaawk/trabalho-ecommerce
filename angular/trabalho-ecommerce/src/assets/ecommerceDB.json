@@ -57,7 +57,7 @@
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-brastemp-BRM45HB-frost-free-com-painel-eletrônico-branco-375L.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 4
         },
         {
             "id": "a6b551a8-8f8f-4e47-a710-43b4f66f6298",
@@ -157,7 +157,7 @@
             "category": "TV",
             "imageUrl": "smart-tv-games-led-49-full-hd-curva-samsung-49K6500.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 6
         },
         {
             "id": "",
@@ -187,7 +187,7 @@
             "category": "Monitor",
             "imageUrl": "monitor-gamer-led-24-aoc-full-hd-g2460pf-hero-com-freesync-flicker-free-shadow-control-1ms-de-tempo-de-resposta-entrada-hdmi-usb-e-dvi-e-144hz-7493367.jpg",
             "amount": 0,
-            "sales": 0
+            "sales": 1
         },
         {
             "id": "",
@@ -207,7 +207,7 @@
             "category": "Smartphone",
             "imageUrl": "smartphone-asus-zenfone-go-live-dtv-ZB551KL.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 8
         },
         {
             "id": "",
@@ -227,7 +227,7 @@
             "category": "Smartphone",
             "imageUrl": "smartphone-motorola-moto-g5-plus-tv-XT1683.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 6
         },
         {
             "id": "",
@@ -257,7 +257,7 @@
             "category": "Smartphone",
             "imageUrl": "smartphone-samsung-galaxy-s9-plus.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 1
         },
         {
             "id": "",
@@ -277,7 +277,7 @@
             "category": "Smartphone",
             "imageUrl": "iphone-7-apple-com-3D-touch-ios-11.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 5
         },
         {
             "id": "",
@@ -287,7 +287,7 @@
             "category": "Cafeteira",
             "imageUrl": "cafeteira-eletrica-britania-CP30-Temp.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 2
         },
         {
             "id": "",
@@ -297,7 +297,7 @@
             "category": "Cafeteira",
             "imageUrl": "cafeteira-eletrica-philco-PH30-Temp.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 1
         },
         {
             "id": "",
@@ -307,7 +307,7 @@
             "category": "Fritadeira",
             "imageUrl": "fritadeira-air-fryer-mondial-grand-family-5L-AF-17.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 8
         },
         {
             "id": "",
@@ -317,7 +317,7 @@
             "category": "Fritadeira",
             "imageUrl": "fritadeira-eletrica-mondial-family-air-fryer-naf-03I.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 2
         },
         {
             "id": "",
@@ -327,7 +327,7 @@
             "category": "Fritadeira",
             "imageUrl": "fritadeira-air-fry-saude-inox-ph3,2L-philco.jpeg",
             "amount": 0,
-            "sales": 0
+            "sales": 4
         }
     ]
 }

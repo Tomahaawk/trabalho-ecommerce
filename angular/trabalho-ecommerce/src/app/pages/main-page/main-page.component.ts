@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/model/products';
+import { ProductsService } from '../products/products.service';
 declare var $: any;
 
 @Component({
@@ -8,14 +9,16 @@ declare var $: any;
 	styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit {
-	products: Array<Product> = [
-		new Product(<Product>{}),
-		new Product(<Product>{})
-	];
+	mostSoldProducts: Array<Product> = [];
 
-	constructor() { }
+	constructor(private productsService: ProductsService) { }
 
 	ngOnInit() {
+		this.productsService.getMostSold().subscribe((res: Array<any>) => {
+			this.mostSoldProducts = res.map(item => new Product(item));
+			console.log(this.mostSoldProducts);
+		});
+
 	}
 
 	previousItem() {
@@ -24,5 +27,9 @@ export class MainPageComponent implements OnInit {
 
 	nextItem() {
 		$('.carousel').carousel('next');
+	}
+
+	addToCart(product) {
+		console.log(product);
 	}
 }

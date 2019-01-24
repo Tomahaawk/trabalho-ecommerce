@@ -3,6 +3,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ShoppingCart } from 'src/app/model/shopping-cart';
 
 import { NgForm } from '@angular/forms';
+import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-shopping-cart',
@@ -20,11 +21,16 @@ export class ShoppingCartComponent implements OnInit {
   qtdeItens:number= 0;
 
   constructor(
-    private shoppingCartService:ShoppingCartService
+    private shoppingCartService:ShoppingCartService,
   ) { }
 
   ngOnInit() {
     this.listar();
+
+    this.shoppingCartService.shoppingCartSubscription().pipe(take(1)).subscribe(products => {
+      console.log(products);
+    });
+
   }
 
   listar(){

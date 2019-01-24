@@ -1,5 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 import { Product } from 'src/app/model/products';
+import { ShoppingCartService } from 'src/app/services/shopping-cart/shopping-cart.service';
 
 @Component({
   selector: 'app-product-grid-item',
@@ -9,9 +10,13 @@ import { Product } from 'src/app/model/products';
 export class ProductGridItemComponent implements OnInit {
   @Input() product: Product;
 
-  constructor() { }
+  constructor(private shoppingCartService: ShoppingCartService) { }
 
   ngOnInit() {
+  }
+
+  addToCart() {
+    this.shoppingCartService.addProductToCart(this.product);
   }
 
 }
