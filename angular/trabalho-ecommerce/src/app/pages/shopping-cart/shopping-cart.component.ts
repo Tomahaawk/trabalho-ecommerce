@@ -4,6 +4,9 @@ import { ShoppingCart } from 'src/app/model/shopping-cart';
 
 import { NgForm } from '@angular/forms';
 import { take } from 'rxjs/operators';
+import { Product } from 'src/app/model/products';
+import { Guid } from 'src/app/services/shopping-cart/guid';
+import { IMG_PRODUCTS } from "../../app.api";
 
 @Component({
   selector: 'app-shopping-cart',
@@ -20,26 +23,31 @@ export class ShoppingCartComponent implements OnInit {
   valorTotal:number = 0;
   qtdeItens:number= 0;
 
+  imagePath: string = IMG_PRODUCTS;
+
   constructor(
     private shoppingCartService:ShoppingCartService,
   ) { }
 
   ngOnInit() {
-    this.listar();
-
+    
     this.shoppingCartService.shoppingCartSubscription().pipe(take(1)).subscribe(products => {
-      console.log(products);
+      this.listar(products);
     });
 
   }
 
-  listar(){
-    this.shoppingCartService.findShoppingCarts().subscribe((list:Array<ShoppingCart>)=>{
-      this.listShoppingCarts = list;
-      this.calculaTotais(this.listShoppingCarts);
-    },err=>{
-
-    });
+  listar(product:Product[]){
+    this.listShoppingCarts = new Array();
+    for(let prod of product){
+      let shopp = new ShoppingCart(
+        Guid.newGuid(),
+        prod,
+        1
+      );
+      this.listShoppingCarts.push(shopp);
+    }
+    this.calculaTotais(this.listShoppingCarts);
   }
 
   calculaTotais(list:Array<ShoppingCart>){
@@ -61,6 +69,7 @@ export class ShoppingCartComponent implements OnInit {
   removeListShopp(shopp:ShoppingCart){
     this.listShoppingCarts = this.listShoppingCarts.filter(obj => obj.id !== shopp.id);
     this.calculaTotais(this.listShoppingCarts);
+    this.shoppingCartService.removeToCart(shopp.product);
   }
 
   plusAmount(shopp:ShoppingCart){

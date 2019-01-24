@@ -17,7 +17,14 @@ export class ShoppingCartService {
   } 
 
   addProductToCart(product: Product) {
-    this.shoppingCartItems.push(product);
+    if(this.shoppingCartItems.includes(product) == false){
+        this.shoppingCartItems.push(product);
+        this.shoppingCartSubject.next(this.shoppingCartItems);
+    }
+  }
+
+  removeToCart(product: Product) {
+    this.shoppingCartItems = this.shoppingCartItems.filter(obj => obj !== product);
     this.shoppingCartSubject.next(this.shoppingCartItems);
   }
 
