@@ -1,0 +1,333 @@
+{
+    "products": [{
+            "id": "a6b551a8-8f8f-4e47-a710-43b4f66f6298",
+            "name": "Geladeira Consul BRE57AB",
+            "price": 2999,
+            "description": "Frost Free, Espaço 443L, Branca",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-brastemp-inverse-bre57ab-frost-free-com-espaco-adapt-443l-branco-11689367.jpg",
+            "amount": 1,
+            "sales": 4
+        },
+        {
+            "id": "",
+            "name": "Geladeira Consul CRM43NB",
+            "price": 1899,
+            "description": "Frost Free, Branco, 386L",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-consul-CRM43NB-frost-free-branco-380l",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Refrigerador Electrolux Duples DW42X",
+            "price": 2399,
+            "description": "Frost Free, Dispenser de Água, Controle Blue Touch, 380L",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-electrolux-duplex-DW42X-frost-free-com-dispenser-de-agua-e-controle-de-temperatura-blue-touch-380l-inox.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Refrigerador Electrolux TF52X",
+            "price": 2879,
+            "description": "Top Frost Free com Prateleiras Retráteis 464L - Inox",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-electrolux-TF52X-top-frost-free-com-prateleiras-retráteis-464l-inox.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Refrigerador Consul CRD37EB",
+            "price": 2999,
+            "description": "Prateleiras Removíveis e Reguláveis Branco - 334L",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-consul-crd37eb-com-prateleiras-removiveis-e-regulaveis-branco-334l-349235.jpg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Refrigerador Brastemp BRM45HB",
+            "price": 1999,
+            "description": "Frost Free com Painel Eletrônico Branco - 375L",
+            "category": "Eletrodoméstico",
+            "imageUrl": "refrigerador-brastemp-BRM45HB-frost-free-com-painel-eletrônico-branco-375L.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "a6b551a8-8f8f-4e47-a710-43b4f66f6298",
+            "name": "Ar Condicionado Philco",
+            "price": 1598.90,
+            "description": "Inverter 12000 Btus Frio M4 - 220 Volts",
+            "category": "Ar-Condicionado",
+            "imageUrl": "ar-condicionado-inverter-12000-btus-Frio-m4-philco.jpeg",
+            "amount": 3,
+            "sales": 2
+        },
+        {
+            "id": "",
+            "name": "Ar Condicionado Split Hi Wall LG DUAL",
+            "price": 1799,
+            "description": "Inverter 9000 BTUs Frio S4Q09WA5WB - 220V",
+            "category": "Ar-Condicionado",
+            "imageUrl": "ar-condicionado-split-hi-wall-lg-dual-inverter-9000-btus-frio-S4Q09WA5WB.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Ventilador Arno Silence Force VF40",
+            "price": 179.90,
+            "description": "Preto-Prata",
+            "category": "Ventilador",
+            "imageUrl": "ventilador-arno-silence-force-VF40-preto-prata.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "26a6b127-6cdd-4785-83bb-862fe857975a",
+            "name": "Ventilador de Mesa Philco PVT400 Turbo",
+            "price": 149.90,
+            "description": "40 cm com 3 Velocidades - Preto",
+            "category": "Ventilador",
+            "imageUrl": "ventilador-de-mesa-philco-PVT400-turbo-40-cm-com-3-velocidades-preto.jpeg",
+            "amount": 2,
+            "sales": 1
+        },
+        {
+            "id": "d04cd786-249c-42f2-b91e-2ec33fe0056a",
+            "name": "Liquidificador Philco PH900",
+            "price": 99.90,
+            "description": "12 Velocidades e 1200W - Vermelho",
+            "category": "Liquidificador",
+            "imageUrl": "liquidificador-philco-PH900-com-12-velocidades-e-1200w-vermelho.jpeg",
+            "amount": 1,
+            "sales": 2
+        },
+        {
+            "id": "",
+            "name": "Liquidificador Mondial Power",
+            "price": 49.90,
+            "description": "NL-26 Branco-Cinza - 500W",
+            "category": "Liquidificador",
+            "imageUrl": "liquidificador-mondial-power-NL-26-branco-cinza-500W.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smart TV LED 32\" HD Samsung 32J4290",
+            "price": 1099,
+            "description": "Wide Color Enhancer Plus, Espelhamento de Tela, Wi-Fi, Dolby Digital Plus, HDMI e USB",
+            "category": "TV",
+            "imageUrl": "smart-tv-led-32-hd-samsung-32J4290.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smart TV LED 43\" Full HD LG 43LK5750PSA",
+            "price": 1649,
+            "description": "IPS, Inteligência Artificial ThinQ AI, WI-FI, Processador Quad Core, HDR 10 Pro, HDMI e USB",
+            "category": "TV",
+            "imageUrl": "smart-tv-led-43-full-hd-ls-43LK5750PSA.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smart TV LED 55\" UHD 4K Curva Samsung 55MU6300",
+            "price": 3599,
+            "description": "HDR Premium, Plataforma Smart Tizen, Smart View, Espelhamento de Tela, Steam Link, 3 HDMI e 2 USB",
+            "category": "TV",
+            "imageUrl": "smart-tv-led-55-uhd-4K-curva-samsung-55MU6300.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smart TV Games LED 49\" Full HD Curva Samsung 49K6500",
+            "price": 2799,
+            "description": "Aplicativos, Gamefly, Plataforma Tizen, Conectividade com Smartphones, Wi-FI, HDMI e USB",
+            "category": "TV",
+            "imageUrl": "smart-tv-games-led-49-full-hd-curva-samsung-49K6500.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Monitor Gamer LED 24.5\" BenQ Full HD Zowie XL2546",
+            "price": 4000,
+            "description": "Tecnologia DyAc, Switch S, Black eQualizer, Color Vibrance e Entradas HDMI",
+            "category": "Monitor",
+            "imageUrl": "monitor-gamer-led-24.5-benq-full-hd-zowie-XL2546.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Monitor 35 Curva Gamer C3583Fq Aoc",
+            "price": 2678,
+            "description": "Led Full Hd 2560X1080",
+            "category": "Monitor",
+            "imageUrl": "monitor-35-curva-gamer-led-full-hd-2560X1080-hdmi-C3583Fq-aoc.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Monitor Gamer LED 24\" AOC Full HD G2460PF HERO",
+            "price": 1599,
+            "description": "FreeSync, Flicker-Free, Shadow Control, 1MS de Tempo de Resposta, Entrada HDMI, USB e DVI e 144Hz",
+            "category": "Monitor",
+            "imageUrl": "monitor-gamer-led-24-aoc-full-hd-g2460pf-hero-com-freesync-flicker-free-shadow-control-1ms-de-tempo-de-resposta-entrada-hdmi-usb-e-dvi-e-144hz-7493367.jpg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Monitor LED 25\" LG 25UM58-P.AWZ",
+            "price": 824.90,
+            "description": "Full HD UltraWide IPS Entrada HDMI",
+            "category": "Monitor",
+            "imageUrl": "monitor-led-25-lg-full-hd-ultrawide-ips-25UM58-P.AWZ-com-entrada-hdmi.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Asus Zenfone Go Live DTV ZB551KL",
+            "price": 599.90,
+            "description": "Dourado 16GB, Tela 5.5\", Dual Chip, Câmera 13MP, 4G, TV Digital, Android 5.1 e Processador Quad Core",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-asus-zenfone-go-live-dtv-ZB551KL.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Asus Zenfone 3 ZE520KL",
+            "price": 1299,
+            "description": "Preto Safira com 32GB, Tela 5.2\", Dual Chip, Câmera 16MP, 4G, Android 6.0 e Processador Qualcomm Octa Core",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-asus-zenfone-3-ZE520KL.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Motorola Moto G5 Plus TV XT1683",
+            "price": 1299,
+            "description": "Ouro com 32GB, Tela 5.2\", Dual Chip, Android 7.0, 4G, Câmera 12MP, Processador Octa-Core e 2GB de RAM",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-motorola-moto-g5-plus-tv-XT1683.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Moto G4 Play DTV Colors XT1603",
+            "price": 1099,
+            "description": "Preto com TV, 16GB, Tela de 5\", Dual Chip, Android 6.0, 4G, Câmera 8MP, Processador Quad-Core e 2GB de RAM",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-moto-g4-play-dtv-colors-XT1603.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Samsung Galaxy S8 Plus",
+            "price": 2599,
+            "description": "Dual Chip Prata com 64GB, Tela 6.2\", Android 7.0, 4G, Câmera 12MP e Octa-Core",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-samsung-galaxy-s8-plus.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Smartphone Samsung Galaxy S9 Plus",
+            "price": 3399,
+            "description": "Dual Chip, Android 8.0, Câmera Dupla 12MP, 6GB RAM e Processador OctaCore, 128GB, Ultravioleta, Tela Infinita 6.2\"",
+            "category": "Smartphone",
+            "imageUrl": "smartphone-samsung-galaxy-s9-plus.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "iPhone 8 Apple com iOS 11",
+            "price": 3299,
+            "description": "Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC, 64GB, Cinza-Espacial, Tela HD de 4,7\"",
+            "category": "Smartphone",
+            "imageUrl": "iphone-8-apple-com-ios-11.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "iPhone 7 Apple com 3D Touch iOS 11",
+            "price": 0,
+            "description": "Touch ID, Câmera 12MP, Resistente à Água, WiFi, 4G LTE e NFC, 32GB, Preto Brilhante, Tela HD de 4,7\"",
+            "category": "Smartphone",
+            "imageUrl": "iphone-7-apple-com-3D-touch-ios-11.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Cafeteira Elétrica Britânia CP30 Temp",
+            "price": 116.90,
+            "description": "Preto-Aço Escovado",
+            "category": "Cafeteira",
+            "imageUrl": "cafeteira-eletrica-britania-CP30-Temp.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Cafeteira Elétrica Philco PH30 Temp",
+            "price": 199.90,
+            "description": "Aço Escovado",
+            "category": "Cafeteira",
+            "imageUrl": "cafeteira-eletrica-philco-PH30-Temp.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Fritadeira Air Fryer Mondial Grand Family 5L AF-17",
+            "price": 499.90,
+            "description": "Preto-Prata",
+            "category": "Fritadeira",
+            "imageUrl": "fritadeira-air-fryer-mondial-grand-family-5L-AF-17.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Fritadeira Elétrica Mondial Family Air Fryer NAF 03I",
+            "price": 299.90,
+            "description": "Preto e Inox",
+            "category": "Fritadeira",
+            "imageUrl": "fritadeira-eletrica-mondial-family-air-fryer-naf-03I.jpeg",
+            "amount": 0,
+            "sales": 0
+        },
+        {
+            "id": "",
+            "name": "Fritadeira Air Fry Saúde Inox PH3,2L Philco",
+            "price": 269.90,
+            "description": "Preta",
+            "category": "Fritadeira",
+            "imageUrl": "fritadeira-air-fry-saude-inox-ph3,2L-philco.jpeg",
+            "amount": 0,
+            "sales": 0
+        }
+    ]
+}
