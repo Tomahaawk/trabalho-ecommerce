@@ -6,6 +6,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## BD server
+
+Para rodar o banco de dados ecommerceDB.json, siga os passos:
+- `npm install -g json-server`
+- `cd trabalho-ecommerce/angular/trabalho-ecommerce/src/assets/`
+- `json-server ecommerceDB.json` ou `json-server ecommerceDB.json --port <porta_de_escolha>`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
