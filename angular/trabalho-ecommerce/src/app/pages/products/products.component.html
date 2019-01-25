@@ -1,5 +1,4 @@
-<!-- INíCIO do CONTEÚDO -->
-<section class="content-header">
+<!-- <section class="content-header">
   <h1>
     Todos os Produtos
   </h1>
@@ -24,4 +23,22 @@
 
 </section>
 
-<!-- FIM  do CONTEÚDO -->
+-->
+
+<section class="content-header">
+    <h1>
+      Todos os produtos
+    </h1>
+  </section>
+
+
+  <section class="content">
+
+    <div class="row">
+      <div class="col-sm-12 col-xs-12" *ngFor="let product of products" >
+        <app-product [product]="product"></app-product>
+
+      </div>
+    </div>
+
+  </section>

@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { LOCALE_ID } from '@angular/core';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { ProductComponent } from './pages/products/product/product.component';
 
 registerLocaleData(localePt);
 @NgModule({
@@ -29,7 +30,8 @@ registerLocaleData(localePt);
     ProductsComponent,
     ProductDetailsComponent,
     ShoppingCartComponent,
-    ProductGridItemComponent
+    ProductGridItemComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

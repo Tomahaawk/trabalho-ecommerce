@@ -1,3 +1,39 @@
-<p>
-  product-details works!
-</p>
+<section class="content-header" style="padding: 20px">
+</section>
+
+<section class="content">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="box box-solid">
+        <div class="box-header with-border">
+
+
+          <h3 class="box-title">{{product?.name}}</h3>
+          <span class="pull-right">
+            {{product?.description}}
+          </span>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+          <div class="col-sm-3 col-xs-12" *ngIf="product">
+            <img class="box-img-detail" [src]="product?.imageUrl" />
+          </div>
+
+          <dl class="col-sm-9 col-xs-12">
+            <dt>Categoria</dt>
+            <dd>{{product?.category}}</dd>
+            <dt>Descrição</dt>
+            <dd>{{product?.description}}</dd>
+            <dt>Preço</dt>
+            <dd>{{ product.price | currency:'BRL': true }}</dd>
+          </dl>
+        </div>
+        <!-- /.box-body -->
+
+        <button class="btn btn-success" (click)="addToCart()">Adicionar ao Carrinho</button>
+
+
+      </div>
+    </div>
+  </div>
+</section>

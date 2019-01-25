@@ -1,0 +1,11 @@
+<a [routerLink]="['/products',product.id]">
+  <div class="place-info-box">
+    <span class="place-info-box-icon"><img [src]="product.imageUrl" /></span>
+
+    <div class="place-info-box-content">
+      <span class="place-info-box-text">{{product.name}}</span><br>
+      <span class="place-info-box-detail">{{product.description}}</span><br>
+      <span class="place-info-box-detail">{{ product.price | currency:'BRL': true }}</span>
+    </div>
+  </div>
+</a>

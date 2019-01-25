@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, BehaviorSubject } from 'rxjs';
-import { Product } from 'src/app/model/products';
+import { Product } from '../../model/product.model';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +14,7 @@ export class ShoppingCartService {
 
   shoppingCartSubscription(): Observable<Product[]> {
     return this.shoppingCartSubject.asObservable();
-  } 
+  }
 
   addProductToCart(product: Product) {
     if(this.shoppingCartItems.includes(product) == false){

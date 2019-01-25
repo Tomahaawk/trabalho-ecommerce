@@ -4,9 +4,9 @@ import { ShoppingCart } from 'src/app/model/shopping-cart';
 
 import { NgForm } from '@angular/forms';
 import { take } from 'rxjs/operators';
-import { Product } from 'src/app/model/products';
+import { Product } from '../../model/product.model';
 import { Guid } from 'src/app/services/shopping-cart/guid';
-import { IMG_PRODUCTS } from "../../app.api";
+import { IMG_PRODUCTS } from '../../app.api';
 
 @Component({
   selector: 'app-shopping-cart',
@@ -15,7 +15,7 @@ import { IMG_PRODUCTS } from "../../app.api";
 })
 export class ShoppingCartComponent implements OnInit {
 
-  @ViewChild("form")
+  @ViewChild('form')
   form:NgForm
 
   listShoppingCarts:Array<ShoppingCart>;
@@ -30,7 +30,7 @@ export class ShoppingCartComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    
+
     this.shoppingCartService.shoppingCartSubscription().pipe(take(1)).subscribe(products => {
       this.listar(products);
     });
