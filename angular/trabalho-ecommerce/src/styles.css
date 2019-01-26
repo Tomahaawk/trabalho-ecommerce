@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 .wrapper {
     padding: 15px 30px;
+    margin-top: 56px;
+}
+
+.gray-primary {
+    color: #9999
 }
