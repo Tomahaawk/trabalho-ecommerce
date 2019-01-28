@@ -16,7 +16,7 @@
             "description": "Frost Free, Branco, 386L",
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-consul-CRM43NB-frost-free-branco-380l.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -26,7 +26,7 @@
             "description": "Frost Free, Dispenser de Água, Controle Blue Touch, 380L",
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-electrolux-duplex-DW42X-frost-free-com-dispenser-de-agua-e-controle-de-temperatura-blue-touch-380l-inox.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -36,7 +36,7 @@
             "description": "Top Frost Free com Prateleiras Retráteis 464L - Inox",
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-electrolux-TF52X-top-frost-free-com-prateleiras-retráteis-464l-inox.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -46,7 +46,7 @@
             "description": "Prateleiras Removíveis e Reguláveis Branco - 334L",
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-consul-crd37eb-com-prateleiras-removiveis-e-regulaveis-branco-334l-349235.jpg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -56,7 +56,7 @@
             "description": "Frost Free com Painel Eletrônico Branco - 375L",
             "category": "Eletrodoméstico",
             "imageUrl": "refrigerador-brastemp-BRM45HB-frost-free-com-painel-eletrônico-branco-375L.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 4
         },
         {
@@ -66,7 +66,7 @@
             "description": "Inverter 12000 Btus Frio M4 - 220 Volts",
             "category": "Ar-Condicionado",
             "imageUrl": "ar-condicionado-inverter-12000-btus-Frio-m4-philco.jpeg",
-            "amount": 3,
+            "amount": 13,
             "sales": 2
         },
         {
@@ -76,7 +76,7 @@
             "description": "Inverter 9000 BTUs Frio S4Q09WA5WB - 220V",
             "category": "Ar-Condicionado",
             "imageUrl": "ar-condicionado-split-hi-wall-lg-dual-inverter-9000-btus-frio-S4Q09WA5WB.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -86,7 +86,7 @@
             "description": "Preto-Prata",
             "category": "Ventilador",
             "imageUrl": "ventilador-arno-silence-force-VF40-preto-prata.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -96,7 +96,7 @@
             "description": "40 cm com 3 Velocidades - Preto",
             "category": "Ventilador",
             "imageUrl": "ventilador-de-mesa-philco-PVT400-turbo-40-cm-com-3-velocidades-preto.jpeg",
-            "amount": 2,
+            "amount": 12,
             "sales": 1
         },
         {
@@ -106,7 +106,7 @@
             "description": "12 Velocidades e 1200W - Vermelho",
             "category": "Liquidificador",
             "imageUrl": "liquidificador-philco-PH900-com-12-velocidades-e-1200w-vermelho.jpeg",
-            "amount": 1,
+            "amount": 11,
             "sales": 2
         },
         {
@@ -116,7 +116,7 @@
             "description": "NL-26 Branco-Cinza - 500W",
             "category": "Liquidificador",
             "imageUrl": "liquidificador-mondial-power-NL-26-branco-cinza-500W.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -126,7 +126,7 @@
             "description": "Wide Color Enhancer Plus, Espelhamento de Tela, Wi-Fi, Dolby Digital Plus, HDMI e USB",
             "category": "TV",
             "imageUrl": "smart-tv-led-32-hd-samsung-32J4290.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -136,7 +136,7 @@
             "description": "IPS, Inteligência Artificial ThinQ AI, WI-FI, Processador Quad Core, HDR 10 Pro, HDMI e USB",
             "category": "TV",
             "imageUrl": "smart-tv-led-43-full-hd-ls-43LK5750PSA.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -146,7 +146,7 @@
             "description": "HDR Premium, Plataforma Smart Tizen, Smart View, Espelhamento de Tela, Steam Link, 3 HDMI e 2 USB",
             "category": "TV",
             "imageUrl": "smart-tv-led-55-uhd-4K-curva-samsung-55MU6300.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -156,7 +156,7 @@
             "description": "Aplicativos, Gamefly, Plataforma Tizen, Conectividade com Smartphones, Wi-FI, HDMI e USB",
             "category": "TV",
             "imageUrl": "smart-tv-games-led-49-full-hd-curva-samsung-49K6500.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 6
         },
         {
@@ -166,7 +166,7 @@
             "description": "Tecnologia DyAc, Switch S, Black eQualizer, Color Vibrance e Entradas HDMI",
             "category": "Monitor",
             "imageUrl": "monitor-gamer-led-24.5-benq-full-hd-zowie-XL2546.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -176,7 +176,7 @@
             "description": "Led Full Hd 2560X1080",
             "category": "Monitor",
             "imageUrl": "monitor-35-curva-gamer-led-full-hd-2560X1080-hdmi-C3583Fq-aoc.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -186,7 +186,7 @@
             "description": "FreeSync, Flicker-Free, Shadow Control, 1MS de Tempo de Resposta, Entrada HDMI, USB e DVI e 144Hz",
             "category": "Monitor",
             "imageUrl": "monitor-gamer-led-24-aoc-full-hd-g2460pf-hero-com-freesync-flicker-free-shadow-control-1ms-de-tempo-de-resposta-entrada-hdmi-usb-e-dvi-e-144hz-7493367.jpg",
-            "amount": 0,
+            "amount": 10,
             "sales": 1
         },
         {
@@ -196,7 +196,7 @@
             "description": "Full HD UltraWide IPS Entrada HDMI",
             "category": "Monitor",
             "imageUrl": "monitor-led-25-lg-full-hd-ultrawide-ips-25UM58-P.AWZ-com-entrada-hdmi.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -206,7 +206,7 @@
             "description": "Dourado 16GB, Tela 5.5\", Dual Chip, Câmera 13MP, 4G, TV Digital, Android 5.1 e Processador Quad Core",
             "category": "Smartphone",
             "imageUrl": "smartphone-asus-zenfone-go-live-dtv-ZB551KL.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 8
         },
         {
@@ -216,7 +216,7 @@
             "description": "Preto Safira com 32GB, Tela 5.2\", Dual Chip, Câmera 16MP, 4G, Android 6.0 e Processador Qualcomm Octa Core",
             "category": "Smartphone",
             "imageUrl": "smartphone-asus-zenfone-3-ZE520KL.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 0
         },
         {
@@ -226,7 +226,7 @@
             "description": "Ouro com 32GB, Tela 5.2\", Dual Chip, Android 7.0, 4G, Câmera 12MP, Processador Octa-Core e 2GB de RAM",
             "category": "Smartphone",
             "imageUrl": "smartphone-motorola-moto-g5-plus-tv-XT1683.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 6
         },
         {
@@ -236,8 +236,8 @@
             "description": "Preto com TV, 16GB, Tela de 5\", Dual Chip, Android 6.0, 4G, Câmera 8MP, Processador Quad-Core e 2GB de RAM",
             "category": "Smartphone",
             "imageUrl": "smartphone-moto-g4-play-dtv-colors-XT1603.jpeg",
-            "amount": 0,
-            "sales": 0
+            "amount": 10,
+            "sales": 1
         },
         {
             "id": "21",
@@ -246,8 +246,8 @@
             "description": "Dual Chip Prata com 64GB, Tela 6.2\", Android 7.0, 4G, Câmera 12MP e Octa-Core",
             "category": "Smartphone",
             "imageUrl": "smartphone-samsung-galaxy-s8-plus.jpeg",
-            "amount": 0,
-            "sales": 0
+            "amount": 14,
+            "sales": 2
         },
         {
             "id": "22",
@@ -256,7 +256,7 @@
             "description": "Dual Chip, Android 8.0, Câmera Dupla 12MP, 6GB RAM e Processador OctaCore, 128GB, Ultravioleta, Tela Infinita 6.2\"",
             "category": "Smartphone",
             "imageUrl": "smartphone-samsung-galaxy-s9-plus.jpeg",
-            "amount": 0,
+            "amount": 13,
             "sales": 1
         },
         {
@@ -266,17 +266,17 @@
             "description": "Câmera de 12 MP, Resistente à Água, Wi-Fi, 4G LTE e NFC, 64GB, Cinza-Espacial, Tela HD de 4,7\"",
             "category": "Smartphone",
             "imageUrl": "iphone-8-apple-com-ios-11.jpeg",
-            "amount": 0,
-            "sales": 0
+            "amount": 10,
+            "sales": 1
         },
         {
             "id": "24",
             "name": "iPhone 7 Apple com 3D Touch iOS 11",
-            "price": 0,
+            "price": 2699,
             "description": "Touch ID, Câmera 12MP, Resistente à Água, WiFi, 4G LTE e NFC, 32GB, Preto Brilhante, Tela HD de 4,7\"",
             "category": "Smartphone",
             "imageUrl": "iphone-7-apple-com-3D-touch-ios-11.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 5
         },
         {
@@ -286,7 +286,7 @@
             "description": "Preto-Aço Escovado",
             "category": "Cafeteira",
             "imageUrl": "cafeteira-eletrica-britania-CP30-Temp.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 2
         },
         {
@@ -296,7 +296,7 @@
             "description": "Aço Escovado",
             "category": "Cafeteira",
             "imageUrl": "cafeteira-eletrica-philco-PH30-Temp.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 1
         },
         {
@@ -306,7 +306,7 @@
             "description": "Preto-Prata",
             "category": "Fritadeira",
             "imageUrl": "fritadeira-air-fryer-mondial-grand-family-5L-AF-17.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 8
         },
         {
@@ -316,7 +316,7 @@
             "description": "Preto e Inox",
             "category": "Fritadeira",
             "imageUrl": "fritadeira-eletrica-mondial-family-air-fryer-naf-03I.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 2
         },
         {
@@ -326,7 +326,7 @@
             "description": "Preta",
             "category": "Fritadeira",
             "imageUrl": "fritadeira-air-fry-saude-inox-ph3,2L-philco.jpeg",
-            "amount": 0,
+            "amount": 10,
             "sales": 4
         }
     ]
