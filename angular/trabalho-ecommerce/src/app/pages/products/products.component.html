@@ -25,21 +25,26 @@
 
 -->
 <div class="wrapper">
-    <section class="content-header">
-        <h1>
-          Todos os produtos
-        </h1>
-      </section>
-    
-    
-      <section class="content">
-    
-        <div class="row">
-          <div class="col-sm-12 col-xs-12 col-md-3" *ngFor="let product of products" >
-            <app-product [product]="product"></app-product>
-          </div>
-        </div>
-    
-      </section>
-</div>
+    <select [ngModel]="selectedCategory" (ngModelChange)="productsByCategory($event)" name="sel3">
+        <option [ngValue]="category" *ngFor="let category of categories">{{category}}</option>
+      </select>
 
+
+
+  <section class="content-header">
+    <h1>
+
+    </h1>
+  </section>
+
+
+  <section class="content">
+
+    <div class="row">
+      <div class="col-sm-12 col-xs-12 col-md-3" *ngFor="let product of listProductByCategory">
+        <app-product [product]="product"></app-product>
+      </div>
+    </div>
+
+  </section>
+</div>
