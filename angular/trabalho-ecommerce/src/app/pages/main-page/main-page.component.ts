@@ -1,34 +1,48 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../model/product.model';
 import { ProductsService } from '../products/products.service';
+import { Router } from '@angular/router';
 declare var $: any;
 
 @Component({
-  selector: 'app-main-page',
-  templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.css']
+	selector: 'app-main-page',
+	templateUrl: './main-page.component.html',
+	styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit {
-  mostSoldProducts: Array<Product> = [];
+	mostSoldProducts: Array<Product> = [];
+	mostSoldProductsAux: Array<Product> = [];
+	readonly itemsPerPage: number = 4;
+	currentPage: number = 1;
+	totalPages: number;
 
-  constructor(private productsService: ProductsService) {}
+	constructor(private productsService: ProductsService, private router: Router) { }
 
-  ngOnInit() {
-    this.productsService.getMostSold().subscribe((res: Array<any>) => {
-      this.mostSoldProducts = res.map(item => new Product(item));
-      console.log(this.mostSoldProducts);
-    });
-  }
+	ngOnInit() {
+		this.productsService.getMostSold().subscribe((res: Array<any>) => {
+			this.mostSoldProducts = res.map(item => new Product(item));
+			this.totalPages = Math.ceil(this.mostSoldProducts.length / this.itemsPerPage);
+			this.mostSoldProductsAux = this.mostSoldProducts.slice(0, this.itemsPerPage);
+		});
+	}
 
-  previousItem() {
-    $('.carousel').carousel('prev');
-  }
+	goToDetails(id: string) {
+		this.router.navigate(['/products', id]);
+	}
 
-  nextItem() {
-    $('.carousel').carousel('next');
-  }
+	nextMostSoldItems() {
+		if(this.currentPage === this.totalPages) return;
+		this.currentPage++;
+		const start = (this.currentPage - 1) * this.itemsPerPage;
+		const end = start + this.itemsPerPage;
+		this.mostSoldProductsAux = this.mostSoldProducts.slice(start, end);
+	}
 
-  addToCart(product) {
-    console.log(product);
-  }
+	previousMostSoldItems() {
+		if(this.currentPage === 1) return;
+		this.currentPage--;
+		const start = (this.currentPage - 1) * this.itemsPerPage;
+		const end = start + this.itemsPerPage;
+		this.mostSoldProductsAux = this.mostSoldProducts.slice(start, end);
+	}
 }

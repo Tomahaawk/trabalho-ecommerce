@@ -1,6 +1,7 @@
 import { Component, OnInit, Input, Output } from '@angular/core';
 import { Product } from '../../model/product.model';
 import { ShoppingCartService } from 'src/app/services/shopping-cart/shopping-cart.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-grid-item',
@@ -10,13 +11,22 @@ import { ShoppingCartService } from 'src/app/services/shopping-cart/shopping-car
 export class ProductGridItemComponent implements OnInit {
   @Input() product: Product;
 
-  constructor(private shoppingCartService: ShoppingCartService) { }
+  constructor(
+    private shoppingCartService: ShoppingCartService,
+    private router: Router
+  )
+  { }
 
   ngOnInit() {
   }
 
   addToCart() {
     this.shoppingCartService.addProductToCart(this.product);
+    this.router.navigate(['/shopping-cart']);
+  }
+
+  goToDetails() {
+    this.router.navigate(['/products', this.product.id]);
   }
 
 }

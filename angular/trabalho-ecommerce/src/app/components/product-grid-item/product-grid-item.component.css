@@ -5,8 +5,23 @@
     text-align: center;
 }
 
-i {
+.item-wrapper > img {
     cursor: pointer;
+}
+
+.item-wrapper > .buy > span {
+    display: block;
+} 
+
+.item-wrapper > .buy > .price {
+    font-weight: bold;
+    color: #2c81ca;
+} 
+.item-wrapper > .buy > .cart {
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 6px;
+    cursor: pointer;
+
 }
 
 .name {
