@@ -74,8 +74,10 @@
            
             <p class="card-text">Parcela em até 10x sem juros</p>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary btn-lg btn-block">
-                  <span class="fas fa-shopping-cart"></span>Comprar</a>
+                  <button class="btn btn-primary btn-lg btn-block" type="button" (click)="finalizarCompra()"
+                    [disabled]="this.listShoppingCarts.length == 0">
+                    <span class="fas fa-shopping-cart">Comprar</span>
+                </button>
             </div>
           </div>
         </div>

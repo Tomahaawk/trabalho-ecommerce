@@ -32,6 +32,10 @@ export class ShoppingCartService {
     }
   }
 
+  removeAllCart(){
+    this.shoppingCartItems = [];
+  }
+
   removeToCart(product: Product) {
     this.shoppingCartItems = this.shoppingCartItems.filter(obj => obj !== product);
     this.shoppingCartSubject.next(this.shoppingCartItems);

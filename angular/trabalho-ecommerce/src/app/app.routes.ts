@@ -1,3 +1,4 @@
+import { CartCompleteComponent } from './pages/cart-complete/cart-complete.component';
 import { Routes } from "@angular/router";
 import { MainPageComponent } from "./pages/main-page/main-page.component";
 import { ProductsComponent } from "./pages/products/products.component";
@@ -9,5 +10,6 @@ export const ROUTES: Routes = [
   { path: "home", component: MainPageComponent },
   { path: "products", component: ProductsComponent },
   { path: "shopping-cart", component: ShoppingCartComponent },
+  { path: "cart-complete", component: CartCompleteComponent },
   {path: "products/:id", component: ProductDetailsComponent}
 ];

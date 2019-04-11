@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { ShoppingCartService } from './../../services/shopping-cart/shopping-cart.service';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ShoppingCart } from 'src/app/model/shopping-cart';
@@ -27,6 +28,7 @@ export class ShoppingCartComponent implements OnInit {
 
   constructor(
     private shoppingCartService:ShoppingCartService,
+    private router:Router
   ) { }
 
   ngOnInit() {
@@ -85,6 +87,12 @@ export class ShoppingCartComponent implements OnInit {
       this.listShoppingCarts.find(obj => obj.id == shopp.id).amount = shopp.amount-1;
       this.calculaTotais(this.listShoppingCarts);
       this.shoppingCartService.saveQtyItemsOfProduct(shopp.product.id, shopp.amount);
+    }
+  }
+
+  finalizarCompra(){
+    if(confirm("Deseja realmente finalizar a compra?")){
+      this.router.navigate(['/cart-complete']);
     }
   }
 }

@@ -21,6 +21,7 @@ import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { ProductComponent } from './pages/products/product/product.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CartCompleteComponent } from './pages/cart-complete/cart-complete.component';
 
 registerLocaleData(localePt);
 @NgModule({
@@ -33,7 +34,8 @@ registerLocaleData(localePt);
     ShoppingCartComponent,
     ProductGridItemComponent,
     ProductComponent,
-    FooterComponent
+    FooterComponent,
+    CartCompleteComponent
   ],
   imports: [
     BrowserModule,
