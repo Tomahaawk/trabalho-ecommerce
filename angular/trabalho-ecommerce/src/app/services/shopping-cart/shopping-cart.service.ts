@@ -18,7 +18,15 @@ export class ShoppingCartService {
   }
 
   addProductToCart(product: Product) {
-    if(this.shoppingCartItems.includes(product) == false){
+    let isProdutoExiste = false;
+    this.shoppingCartItems.forEach(function(item){
+      if(product.id === item.id){
+        isProdutoExiste = true;
+        return;
+      }
+    });
+
+    if(!isProdutoExiste){
         this.shoppingCartItems.push(product);
         this.shoppingCartSubject.next(this.shoppingCartItems);
     }
