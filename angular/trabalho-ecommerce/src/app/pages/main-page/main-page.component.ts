@@ -22,7 +22,7 @@ export class MainPageComponent implements OnInit {
 		this.productsService.getMostSold().subscribe((res: Array<any>) => {
 			this.mostSoldProducts = res.map(item => new Product(item));
 			this.totalPages = Math.ceil(this.mostSoldProducts.length / this.itemsPerPage);
-			this.mostSoldProductsAux = this.mostSoldProducts.slice(0, this.itemsPerPage);
+			this.mostSoldProductsAux = this.productsService.orderBySales(this.mostSoldProducts, 12).slice(0, this.itemsPerPage);
 		});
 	}
 

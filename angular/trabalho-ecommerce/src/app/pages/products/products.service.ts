@@ -23,7 +23,21 @@ export class ProductsService {
 
   getMostSold() {
     return this.http
-      .get(`${ECOMMERCE_API}/products?sales_gte=2`)
+      .get(`${ECOMMERCE_API}/products`)
       .pipe(map(res => res.json()));
+  }
+
+  orderBySales(products: Product[], qtdProducts: number): Product[]{
+    products.sort((prod1, prod2) => {
+      if(prod1.sales > prod2.sales) {
+        return -1;
+      } else if (prod1.sales < prod2.sales){
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+
+    return products.slice(0, qtdProducts);
   }
 }
