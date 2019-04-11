@@ -43,8 +43,9 @@ export class ShoppingCartComponent implements OnInit {
       let shopp = new ShoppingCart(
         Guid.newGuid(),
         prod,
-        1
+        this.shoppingCartService.loadQtyItemsOfProduct(prod.id)
       );
+      this.shoppingCartService.saveQtyItemsOfProduct(shopp.product.id, shopp.amount);
       this.listShoppingCarts.push(shopp);
     }
     this.calculaTotais(this.listShoppingCarts);
@@ -70,17 +71,20 @@ export class ShoppingCartComponent implements OnInit {
     this.listShoppingCarts = this.listShoppingCarts.filter(obj => obj.id !== shopp.id);
     this.calculaTotais(this.listShoppingCarts);
     this.shoppingCartService.removeToCart(shopp.product);
+    this.shoppingCartService.removeQtyItemsOfProduct(shopp.product.id);
   }
 
   plusAmount(shopp:ShoppingCart){
     this.listShoppingCarts.find(obj => obj.id == shopp.id).amount = shopp.amount+1;
     this.calculaTotais(this.listShoppingCarts);
+    this.shoppingCartService.saveQtyItemsOfProduct(shopp.product.id, shopp.amount);
   }
 
   minAmount(shopp:ShoppingCart){
     if(shopp.amount>1){
       this.listShoppingCarts.find(obj => obj.id == shopp.id).amount = shopp.amount-1;
       this.calculaTotais(this.listShoppingCarts);
+      this.shoppingCartService.saveQtyItemsOfProduct(shopp.product.id, shopp.amount);
     }
   }
 }

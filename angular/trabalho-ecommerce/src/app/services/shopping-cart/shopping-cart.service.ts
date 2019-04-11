@@ -7,6 +7,7 @@ import { Product } from '../../model/product.model';
   providedIn: 'root'
 })
 export class ShoppingCartService {
+  keyLocalStorage = "item_"
   shoppingCartItems: Product[] = [];
   private shoppingCartSubject: BehaviorSubject<Product[]> = new BehaviorSubject([]);
 
@@ -34,5 +35,24 @@ export class ShoppingCartService {
 
   findShoppingCarts() {
     return this.http.get(`http://private-708c2-ecommerce51.apiary-mock.com/shopping-cart`);
+  }
+
+  saveQtyItemsOfProduct(productId: string, qty: number){
+    const key = this.keyLocalStorage + productId;
+    localStorage.setItem(key, String(qty));
+  }
+
+  loadQtyItemsOfProduct(productId: string): number {
+    const key = this.keyLocalStorage + productId;
+    if (localStorage.getItem(key) === null) {
+      return 1
+    } else {
+      return +localStorage.getItem(key);
+    }
+  }
+
+  removeQtyItemsOfProduct(productId: string){
+    const key = this.keyLocalStorage + productId;
+    localStorage.removeItem(key);
   }
 }
