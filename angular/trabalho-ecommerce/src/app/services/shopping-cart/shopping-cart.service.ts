@@ -33,7 +33,13 @@ export class ShoppingCartService {
   }
 
   removeAllCart(){
+    this.shoppingCartItems.forEach((product) => {
+      this.removeQtyItemsOfProduct(product.id)
+    })
+
     this.shoppingCartItems = [];
+    this.shoppingCartSubject.next(this.shoppingCartItems)
+    // localStorage.clear()
   }
 
   removeToCart(product: Product) {
